@@ -1,0 +1,82 @@
+
+
+html{
+    height:100%;
+}
+
+body{
+    background-image: linear-gradient(#8C9DB7, #A7B1C1);
+    height: 100%;
+}
+
+.pul{
+    color:#8C9DB7;
+    color:#815A5C ;
+    color: #A7B1C1;
+    color: #7184A2;
+    color:#F0CC04;
+
+}
+.pocket {
+    position: absolute;
+    left: 10%;
+    bottom:10%;
+
+    width: 30%;
+    height:30%;
+
+    background-image:
+    linear-gradient(45deg,#26364E 49%, transparent 51%); 
+box-shadow:-7px 3px 2px 2px #26364E;
+
+border: 2px dashed #815A5C ;
+border-top: none;
+border-right: none;
+    
+
+}
+.pocket img {
+    opacity: 0.5; /* ii transparenta*/
+    width: 110%;
+    position: absolute;
+    left: 5%;
+    bottom:5%;
+    border: 15px solid white;
+
+    /*new propriety*/
+
+    transform-origin: left bottom;
+    box-shadow:0 0 3px 3px  #7184A2;;
+
+    
+}
+.pocket img:nth-child(1){
+    transform: rotate(-3deg);
+}
+.pocket img:nth-child(3){
+    transform: 
+    rotate(3deg);
+}
+
+.pocket .top{
+    position: absolute;
+    left: 0%;
+    bottom:0%;
+
+    width: 50%;
+    height:50%;
+
+    background-image:
+    linear-gradient(45deg,#26364E
+    48%, transparent 52%); 
+box-shadow:-7px 3px 2px 2px #26364E;
+
+border: 2px dashed #815A5C ;
+border-top: none;
+border-right: none;
+    
+
+}
+
+
+
